@@ -1,0 +1,84 @@
+.page1{
+    width: 750px;
+    margin: 10px;
+}
+.page2{
+    width: 750px;
+}
+
+.img1{
+    height: 40px;
+}
+
+.img2{
+    padding-top: 5px;
+    height: 30px;
+    width: 35px;
+}
+
+.img3{
+    padding-top: 5px;
+    height: 50px;
+    width: 50px;
+}
+.img4{
+
+    height: 18px;
+}
+.zt1{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    color: rgb(73,73,73);
+    font-weight:normal;
+}
+
+
+.zt2{
+    margin: 0px;
+    padding: 0px;
+    font-size: 8px;
+    color: rgb(145,145,145);
+    font-weight:normal;
+    margin-top: 5px;
+}
+
+.zt1{
+
+    font-size: 14px;
+    color: rgb(73,73,73);
+    font-weight:normal;
+}
+
+#bottom
+{
+    height:50px;
+    position:relative;
+}
+.sp1,.sp2
+{
+    display:block;
+    height:0px;
+    width:0px;
+    position:absolute;
+    font-size:0;
+    line-height:0;
+}
+.sp1
+{
+    bottom:-6px;    /* 它的绝对值加上span的边框宽度等于div边框宽度的5倍 */
+    left:48%;   /* 它来确定尖角的位置 */
+    border-bottom:1px;
+    border-top:6px solid rgb(4,110,184);  /* 注意颜色的变化 */
+    border-right:6px solid white;
+    border-left:6px solid white;
+}
+.sp2
+{
+    /*bottom:6px;  /!* 是自身边框宽度的2倍 *!/*/
+    /*left:-3px; /!* 是自身边框宽度的-1倍  *!/*/
+    /*border-bottom:0px;*/
+    /*border-top:3px solid white;*/
+    /*border-right:3px solid black;*/
+    /*border-left:3px solid black;*/
+}
